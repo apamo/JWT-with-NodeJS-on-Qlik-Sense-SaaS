@@ -32,9 +32,11 @@ or
 npm start
 ```
 
-### Implementing JWT authorization 
+### JWT authorization 
 
 [Qlik OEM YouTube video tutorial](): In this video, you're going to use the example code from this github repository, create a public / private key pair for signing JWT tokens, create and configure a JWT IdP in your Qlik Cloud tenant, and make the necessary adjustments in the example code to use your own Qlik Cloud teanant and configured JWT IdP. Lastly, you're going to test the example code which sends users from the custom login page (simulating an ISV/OEM auth module) to your Qlik Cloud Hub. This example code is a modified version of the [JWT boilerplate](https://glitch.com/~qlik-cloud-jwt) available in Qlik's Glitch account.
 
-[Qlik.dev tutorial](https://qlik.dev/tutorials/implement-jwt-authorization): Follow the steps in this technical tutorial to learn how to configure a web application to create a JWT token and send it to Qlik Cloud to authorize a user to view embedded content from a Qlik Sense application.
+[Create Signed Tokens for JWT Authorization](https://qlik.dev/tutorials/create-signed-tokens-for-jwt-authorization): In this technical tutorial, you are going to learn how to configure Qlik Sense SaaS to use JSON web tokens (JWT) for authorizing users in your tenant
+
+[Implement JWT Authorization](https://qlik.dev/tutorials/implement-jwt-authorization): Follow the steps in this technical tutorial to learn how to configure a web application to create a signed JWT token and send it to Qlik Cloud to authorize a user to view embedded content from a Qlik Sense application.
 
