@@ -21,7 +21,7 @@ openssl req -nodes -new -x509 -keyout server.key -out server.cert
 ```
 *Source: [Running express.js server over HTTPS](https://timonweb.com/javascript/running-expressjs-server-over-https/)
 
-Make sure the two files server.key and server.cert are in the same root directory of this project as the other files, i.e. server.js or rebuild.js
+Copy the resulting files server.key and server.cert in the same root directory of this project, i.e. same location as the file server.js
 
 ### Running the server
 ```
@@ -34,7 +34,7 @@ npm start
 
 ### Implementing JWT authorization 
 
-[Qlik.dev tutorial](https://qlik.dev/tutorials/implement-jwt-authorization): Follow the steps in this technical tutorial to learn how to configure a web application to create a JWT token and send it to Qlik Cloud to authorize a user to view embedded content from a Qlik Sense application.
+[Qlik OEM YouTube video tutorial](): In this video, you're going to use the example code from this github repository, create a public / private key pair for signing JWT tokens, create and configure a JWT IdP in your Qlik Cloud tenant, and make the necessary adjustments in the example code to use your own Qlik Cloud teanant and configured JWT IdP. Lastly, you're going to test the example code which sends users from the custom login page (simulating an ISV/OEM auth module) to your Qlik Cloud Hub. This example code is a modified version of the [JWT boilerplate](https://glitch.com/~qlik-cloud-jwt) available in Qlik's Glitch account.
 
-[Qlik OEM YouTube video tutorial](): In this video, you're going to use the code example from this github repository, make the necessary configurations in the code to connect and work with your own Qlik Cloud tenant and test JWT authentication to send the user automatically from a custom login page to the Qlik Cloud Hub. this code example is based on the [JWT boilerplate](https://glitch.com/~qlik-cloud-jwt) available in Qlik's Glitch account.
+[Qlik.dev tutorial](https://qlik.dev/tutorials/implement-jwt-authorization): Follow the steps in this technical tutorial to learn how to configure a web application to create a JWT token and send it to Qlik Cloud to authorize a user to view embedded content from a Qlik Sense application.
 
