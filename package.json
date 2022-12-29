@@ -1,0 +1,27 @@
+{
+  "name": "qlik-cloud-jwt",
+  "version": "1.0.0",
+  "description": "Configure JWT authorization project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "jwt",
+    "auth",
+    "qlik",
+    "cloud"
+  ],
+  "author": "Alvaro Palacios",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "uid-safe": "^2.1.5",
+    "uuid": "^8.3.2"
+  }
+}
