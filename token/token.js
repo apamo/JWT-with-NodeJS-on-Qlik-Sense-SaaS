@@ -15,7 +15,7 @@ const methods = {
             "algorithm": "RS256",
             "issuer": config.issuer,
             "expiresIn": "30s", //Expires 30 seconds after the issue date/time.
-            "notBefore": "0s", //JWT is valid 0 second after the issue date/time.
+            "notBefore": "-30s", //JWT is valid 0 second after the issue date/time.
             "audience": "qlik.api/login/jwt-session"
         };
 
